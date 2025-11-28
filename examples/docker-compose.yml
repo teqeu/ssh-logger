@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  ssh-logger:
+    build: ../docker
+    container_name: ssh-logger
+    environment:
+      - USER_NAME
+      - SSH_CONNECTION
+      - SSH_CLIENT
+    volumes:
+      - ../config:/config
+    restart: unless-stopped
