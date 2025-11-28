@@ -1,5 +1,5 @@
 #!/bin/bash
-# i used tailscale_ip because when i made i was using a tailnet. if you are not using a tailnet, you can change it to something else like $SSH_CLIENT or $SSH_CONNECTION
+# i used tailscale_ip because when i made i was using a tailnet. if you are not using a tailnet, you can change it to something else 
 # Load config
 source /config/config.env
 
